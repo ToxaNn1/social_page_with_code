@@ -1,0 +1,89 @@
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.paragraph {
+    font-size: 22px;
+    background: #00204a;
+    color: #fdb44b;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.mainContainer {
+    display: flex;
+    gap: 10px;
+}
+.halfInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.updateInput {
+    padding: 14px 10px;
+    border: 0px;
+    background: #f1f3f6;
+    border-radius: 10px;
+    border: 2px solid rgb(44, 62 80);
+    transition: all 0.2s ease;
+    box-shadow: 0px 11px 22px 1px rgb(0 0 0 / 24%);
+    font-size: 18px;
+}
+.updateData {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.updateCol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.updateOneInput {
+    display: flex;
+    flex-direction: column;
+    background: #00204a;
+    color: #fdb44b;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.updateInputLast {
+    display: flex;
+    flex-direction: column;
+    background: #00204a;
+    color: #fdb44b;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.blockButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonOption {
+    display: flex;
+    align-self: flex-end;
+    padding: 10px 20px;
+    border: none;
+    background: #00204a;
+    color: #fdb44b;
+}
+
+@media (max-width:320px) {
+    .paragraph {
+        font-size: 20px;
+    }
+}

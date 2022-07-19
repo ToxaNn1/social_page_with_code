@@ -1,0 +1,38 @@
+.posts {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-inline-start: 0px;
+}
+
+.postsH{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .posts {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .posts {
+        max-width: 425px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 375px) {
+    .posts {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 320px) {
+    .posts {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}

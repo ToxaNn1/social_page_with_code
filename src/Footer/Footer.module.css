@@ -1,0 +1,12 @@
+.container {
+    margin-top: 40px;
+    width: 100%;
+    padding: 20px;
+    background: rgb(146, 37, 218);
+}
+
+.container p{
+    font-size: 22px;
+    text-align: center;
+    color: antiquewhite;
+}

@@ -1,0 +1,54 @@
+.main {
+    width: 100%;
+    color: black;
+    padding: 5px 10px 10px 10px;
+    margin-bottom: 20px;
+    background: rgb(146, 37, 218);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blockVer {
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    top: 0;
+    padding: 15px 0px;
+    background-color: rgb(42 55 175);
+    color: #fdb44b;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+}
+
+.cross {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.verButton {
+    padding: 10px 15px;
+    border: none;
+    background: #00204a;
+    color: #fdb44b;
+    border-radius: 20px;
+    font-size: 18px;
+    align-self: flex-end;
+}
+
+@media (max-width: 390px) {
+    p {
+        font-size: 18px;
+    }
+}

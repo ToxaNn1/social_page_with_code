@@ -1,0 +1,11 @@
+.container{
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: flex-start;
+}
+.container p{
+    font-size: 22px;
+    text-decoration: underline;
+}

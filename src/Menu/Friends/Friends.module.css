@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #2b4353;
+    padding: 20px 10px;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    background: ghostwhite;
+}
+
+.paragraph {
+    font-size: 17px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 10px;
+    color: #fdb44b;
+}
+
+.paragraph:active,
+.paragraph:visited {
+    text-decoration: none;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.image img {
+    width: 400px;
+}
+
+.button {
+    font-size: 22px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background: rgb(11, 11, 42);
+    color: red;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 10px 10px 10px;
+}
+.searchBtn {
+    padding: 10px 20px;
+    border: none;
+    background: #00204a;
+    color: #fdb44b;
+}
+.searchInput {
+    padding: 14px 10px;
+    border: 0px;
+    background: #f1f3f6;
+    border-radius: 10px;
+    border: 2px solid rgb(44, 62 80);
+    transition: all 0.2s ease;
+    box-shadow: 0px 11px 22px 1px rgb(0 0 0 / 24%);
+    font-size: 18px;
+}
+
+.personalInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 425px) {
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .image img {
+        width: 340px;
+    }
+}
+
+@media (max-width: 390px) {
+    .image img {
+        width: 340px;
+    }
+}
+
+@media (max-width: 320px) {
+    .image img {
+        width: 280px;
+    }
+}

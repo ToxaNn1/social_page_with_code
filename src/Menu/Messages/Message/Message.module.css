@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    flex-grow: 1;
+    width: 600px;
+}
+
+.box {
+    border: 1px solid black;
+    height: 76vh;
+    border-radius: 10px;
+    gap: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxInput {
+    gap: 5px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.input {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    flex-grow: 7;
+}
+.button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    flex-grow: 1.5;
+    font-size: 18px;
+}
+
+.userBox {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.myMessage {
+}
+
+.friendMessage {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.infoPerson {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.personalInfo {
+    margin-bottom: 10px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 5px 0px;
+    gap: 5px;
+}
+
+p {
+    font-size: 22px;
+}

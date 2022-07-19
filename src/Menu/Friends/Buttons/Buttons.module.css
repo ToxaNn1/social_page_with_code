@@ -1,0 +1,19 @@
+.button {
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background: #00204a;
+    color: #fdb44b;
+    width: 100%;
+}
+
+.buttons{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,21 @@
+.pagination {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.paginationLi {
+    padding: 10px 15px;
+    background-color: beige;
+}
+
+.paginationLi span {
+    display: inline-block;
+}
+
+@media (max-width: 425px) {
+    .pagination {
+        flex-wrap: wrap;
+    }
+}

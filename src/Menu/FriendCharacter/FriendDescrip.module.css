@@ -1,0 +1,14 @@
+.friendDescrip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.descrip{
+    font-size: 22px;
+    background: #00204a;
+    color: #fdb44b;
+    padding: 10px;
+    border-radius: 5px;
+}

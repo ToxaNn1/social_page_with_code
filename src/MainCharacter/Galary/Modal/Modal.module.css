@@ -1,0 +1,43 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.9s;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modalContent {
+    border-radius: 12px;
+    transform: scale(0.5);
+    transition: 0.7s all;
+}
+
+.modalContent.active {
+    transform: scale(1);
+}
+
+
+@media (max-width: 768px) {
+    .modal {
+        height: 100vh;
+        width: 100vw;
+    }
+}
+@media (max-width: 475px) {
+    .modal {
+        display: none;
+    }
+}

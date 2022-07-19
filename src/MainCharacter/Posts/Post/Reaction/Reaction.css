@@ -1,0 +1,22 @@
+.iconReaction{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.wrapperReaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.isLike{
+    color: blue;
+}
+
+.isDisLike {
+    color: black;
+}
+
+.a{
+    color: white;
+}

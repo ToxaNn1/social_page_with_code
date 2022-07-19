@@ -1,0 +1,76 @@
+.wrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.imageBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.imageBlock img {
+    width: 400px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.galaryP{
+    font-size: 18px;
+    margin: 10px ;
+}
+
+.modalActive {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.modal{
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+}
+.modalParagpaph{
+    font-size: 22px;
+}
+
+.modalButton{
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background: #00204a;
+    color: #fdb44b;
+    margin: 10px;
+}
+
+@media (max-width: 425px) {
+    .main {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 390px) {
+    .imageBlock img{
+        width: 350px;
+    }
+}
+
+@media (max-width: 320px) {
+    .imageBlock img {
+        width: 300px;
+    }
+}
+
